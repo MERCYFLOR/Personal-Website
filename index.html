@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personamy-cv.pdfl Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="./Mercy.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    
+      </ul>
+      <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+    </nav>
+    <div class="header-text">
+      <div class="text-content">
+        <p>STUDENT</p>
+        <h1>HI, I'm <span>Mercy Flor</span><br>From Polanco</h1>
+      </div>
+      <img src="./123.png" class="additional-image" alt="New Image">
+    </div>
+    
+  </div>
+</div>
+
+<!-- ----------about---------- -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="./2.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About me</h1>
+        <br>
+        <p>Mercy Flor. I'm a 20-year-old student who loves anime and is inspired by the creativity and dedication of others. I was born on March 1, 2004, in Polanco, Zamboanga del Norte, and I'm currently in my second year of a BSCS program.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>DRAWING</span><br>Designing anime interfaces</li>
+            <li><span>PAINTING</span><br>Painting and Crafting</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Hobbies">
+          <ul>
+            <li><span>Watching Anime</span><br>Your Name, One Piece, Naruto, Attack on Titan</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2015-2016</span><br>Letapan Elementary School</li>
+            <li><span>2021-2022</span><br>Silawe Natioanl High School</li>
+            <li><span>2023-2024</span><br>2nd Year Bachelor of Science in Computer Science<br>Jose Rizal Memorial State University Katipunan Campus</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ----------portfolio---------- -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Favorite Anime</h1>
+    <div class="work-list">
+      <div class="work">
+        <a href="https://www.imdb.com/title/tt5311514/?ref_=ext_shr_lnk">
+          <img src="./your name.jpg">
+        </a>
+        <div class="layer"></div>
+      </div>
+      <div class="work">
+        <a href="https://www.imdb.com/title/tt0388629/?ref_=ext_shr_lnk">
+          <img src="./onepiece.jpg">
+        </a>
+        <div class="layer"></div>
+      </div>
+      <div class="work">
+        <a href="https://www.imdb.com/title/tt12343534/?ref_=ext_shr_lnk">
+          <img src="./jujutsu.jpeg">
+        </a>
+        <div class="layer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ----------services---------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-pencil-alt"></i>
+        <h2>CHARACTER DESIGN</h2>
+        <p>I enjoy creating anime characters through drawing, where I can bring unique personalities to life and explore endless creative possibilities.</p>
+      </div>
+      <div>
+        <i class="fas fa-paint-brush"></i>
+        <h2>PAINTING</h2>
+        <p>I love painting because it allows me to express emotions, capture moments, and transform visions into vibrant artwork.</p>
+      </div>
+      <div>
+        <i class="fas fa-palette"></i>
+        <h2>FAN ART</h2>
+        <p>I offer bespoke fan art commissions, where I bring beloved characters and worlds to life through my unique artistic style, catering to the passions and preferences of fellow fans.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ----------contact---------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-envelope"></i>flormercy246@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>09065488204</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/miamercy.flor/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/mercycuerda/?igsh=MWVweWhnemxvbXo3cw%3D%3D&fbclid=IwAR2gu7soVIdMYifW5tBLXfs7KQIaaErGQwQjORhQxi5POVdN2aO_WFX0Nvc"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@mhee_01?_r=1&_d=dm8i2i9gic8gej&sec_uid=MS4wLjABAAAArfuVkAy7RpZINFp8FrBdRTo9bO63d7PmYaAJDjMRvV56r_e6htZLXwtT655PbIKr&share_author_id=7023579271794050049&sharer_language=en&source=h5_t&u_code=dm8i291il2kfhf&timestamp=1711115739&user_id=7042966911253316609&sec_user_id=MS4wLjABAAAAXo0gyeU_IKhlT-c0GFArlbA8dzQwEnp-BO2yv17nhjWoHTfA_h605GSPk79zh05C&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7348344722962614022&share_link_id=631f164f-11b7-4db9-ad0d-c2d5f818b1b9&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b7360%2Cb5836&social_share_type=5&enable_checksum=1&fbclid=IwAR1321hcAStvHj-L9lbXyRB_kCNqpFFK54p_jdCzHlo1oCnYDlKYyWCVDaE"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname) {
+            for (var tablink of tablinks) {
+              tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+              tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+        </script>
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbzA1AB9LTz7ScdFPt8AJMsfYKozZpEftlxvLME_ZUJezGkutNLyE98sOA2H03deaC4/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById("msg")
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function () {
+                  msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+              })
+              .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+        <script>
+          // Show/hide nav menu
+          const menu = document.querySelector(".nav__menu");
+          const menuBtn = document.querySelector("#open-menu-btn");
+          const closeBtn = document.querySelector("#close-menu-btn");
+
+          menuBtn.addEventListener('click', () => {
+            menu.style.display = "flex";
+            closeBtn.style.display = "inline-block";
+            menuBtn.style.display = "none";
+          })
+
+          // Close nav menu
+          const closeNav = () => {
+            menu.style.display = "none";
+            closeBtn.style.display = "none";
+            menuBtn.style.display = "inline-block";
+          }
+
+          closeBtn.addEventListener('click', closeNav)
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
